@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/ashw1nkumars/rabbithole/issues"
   },
-  "homepage": "https://github.com/ashw1nkumars/rabbithole#readme"
+  "homepage": "https://github.com/ashw1nkumars/rabbithole#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0",
+    "semver": "^7.5.4"
+  }
 }
