@@ -4,7 +4,8 @@
   "description": "Blockchain project... idk",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat text",
+    "deploy": "npx hardhat run ./scripts/deploy.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,8 @@
   "keywords": [
     "AK",
     "Ashwin",
-    "akrabbithole"
+    "akrabbithole",
+    "contracts"
   ],
   "author": "AshwinKumarS",
   "license": "MIT",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/ashw1nkumars/rabbithole#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "eslint": "^8.53.0",
     "hardhat": "^2.19.0",
     "semver": "^7.5.4"
   }
